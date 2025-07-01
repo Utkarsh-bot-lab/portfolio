@@ -346,30 +346,14 @@ form btn2{
 nav .fas{
     display: none;
 }
-#header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-@media only screen and (max-width: 600px) {
-    #header {
+@media only screen and (max-width: 600px){
+    #header{
         background-image: url(images/phnbckgrd.jpg);
-        background-size: cover;
-        background-position: center;
-        /* Consider removing background-attachment for better mobile compatibility */
-        /* background-attachment: scroll; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
-    .header-text {
-        margin-top: 0;
+    .header-text{
+        margin-top: 100%;
         font-size: 16px;
-        text-align: center;
     }
-}
     .header-text h1{
         font-size: 30px;
     }
