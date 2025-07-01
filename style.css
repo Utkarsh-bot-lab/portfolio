@@ -349,13 +349,10 @@ nav .fas{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/phnbckgrd.jpg);
+        background-attachment: fixed;  /* still apply parallax */
+        background-size: cover;
+        background-position: center;
     }
-  #header {
-    background-image: url("images/phnbckgrd.jpg"); /* make sure it exists */
-    background-attachment: fixed;  /* still apply parallax */
-    background-size: cover;
-    background-position: center;
-  }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
